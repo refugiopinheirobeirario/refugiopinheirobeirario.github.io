@@ -1,4 +1,4 @@
-# refugiopinheirobeirario.github.io
+# [Refúgio Pinheiro Beira Rio](www.refugiopinheirobeirario.com.br)
 
 A Jekyll-based website for Refugio Pinheiro Beira Rio. This site provides information about the location, services, and how to get in touch.
 
@@ -82,8 +82,8 @@ Contributions are what make the open-source community an amazing place to learn,
 
 ## License
 
-Distributed under the MIT License. See `LICENSE` for more information.
 
+Distributed under the MIT License. See `LICENSE` for more information.
 ## Credits
 
 This site was built using Jekyll and various open-source resources.
