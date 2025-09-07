@@ -19,7 +19,7 @@ body {
 
 body {
   color: var(--color-text);
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Open Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 1rem;
   line-height: 1.5;
 }
@@ -50,4 +50,12 @@ picture {
   display: block;
   object-fit: cover;
   max-width: 100%;
+}
+
+.display {
+  font-family: "Yellowtail", cursive;
+}
+
+.display--1 {
+  font-size: 6rem;
 }
