@@ -2,11 +2,28 @@
 layout: default
 ---
 
-<article>
-  <header>
-    <h1>{{ page.title }}</h1>
-    <img src="{{ page.capa | relative_url }}" alt="Foto de capa da Casa">
+<article class="house">
+  <header class="hero house__header" style="background-image: url({{ page.hero | relative_url }});">
+    {% include navbar.html %}
+
+    <div class="container">
+      <h1>{{ page.title }}</h1>
+    </div>
   </header>
 
-  {{content}}
+  <div class="container house__inner">
+    <div class="house__links">
+      <h2>Faça sua reserva:</h2>
+
+      <div class="house__links-buttons">
+        {% for link in page.links %}
+          <a class="button button--{{ link.site }} house__link-button" target="_blank" href="{{ link.url }}">Reserve no {{ link.site | capitalize }}</a>
+        {% endfor %}
+      </div>
+    </div>
+
+    <div class="house__content">
+      {{content}}
+    </div>
+  </div>
 </article>
