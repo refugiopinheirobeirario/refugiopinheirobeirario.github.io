@@ -3,3 +3,11 @@ layout: default
 title: "Bem vindo"
 ---
 <h1>Bem vindo ao Refúgio Pinheiro Beira Rio!</h1>
+
+<section>
+  {% for casa in site.casas %}
+    <a href="{{ casa.url }}">
+      <h2>{{ casa.title }}</h2>
+    </a>
+  {% endfor %}
+</section>
