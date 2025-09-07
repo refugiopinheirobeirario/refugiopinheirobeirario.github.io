@@ -1,6 +1,7 @@
 ---
 layout: casa
 title: "Casa Cipreste"
+capa: /assets/images/casas/casa-cipreste/sala.jpg
 ---
 
 A Casa Cipreste, no Refúgio Pinheiro Beira Rio, é perfeita para quem busca conforto e contanto com a natureza na Serra da Mantiqueira. Fica no bairro do Juncal, em Sapucaí-Mirim (MG), na divisa com Gonçalves. Estamos a aprox. 15 km do centro de Gonçalves (30 min), 26 km de São Bento do Sapucaí (1h), 44,4 km de Monte Verde (1h20) e 44,4 km de Sapucaí-Mirim (1h13).
