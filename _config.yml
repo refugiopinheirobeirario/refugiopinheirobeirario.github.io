@@ -2,3 +2,6 @@ url: "https://refugiopinheirobeirario.com.br/" # the base hostname & protocol fo
 baseurl: "/" # the subpath of your site, e.g. /blog
 title: "Refúgio Pinheiro Beira Rio" # the name of your site, e.g. ACME Corp.
 lang: "pt-BR"
+collections:
+  casas:
+    output: true
