@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: casa
 title: "Casa Cipreste"
 ---
 
