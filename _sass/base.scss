@@ -58,6 +58,8 @@ picture {
   max-width: 72rem;
   padding-left: 1rem;
   padding-right: 1rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .display {
@@ -74,6 +76,22 @@ picture {
   @media only screen and (min-width: 992px) {
     font-size: 6rem;
   }
+}
+
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.navbar__brand {
+  color: var(--color-light);
+  display: inline-block;
+  font-size: 1.25rem;
+  font-weight: bold;
+  padding: 1rem 0;
+  text-decoration: none;
 }
 
 .hero {
