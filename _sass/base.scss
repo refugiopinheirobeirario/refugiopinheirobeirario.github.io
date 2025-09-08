@@ -63,19 +63,11 @@ picture {
 }
 
 .display {
-  font-family: "Yellowtail", cursive;
+  font-weight: 700;
 }
 
 .display--1 {
-  font-size: 2rem;
-
-  @media only screen and (min-width: 768px) {
-    font-size: 4rem;
-  }
-
-  @media only screen and (min-width: 992px) {
-    font-size: 6rem;
-  }
+  font-size: 4rem;
 }
 
 .navbar {

@@ -1,6 +1,7 @@
 ---
 layout: default
-title: "Bem vindo ao Refugio Pinheiro Beira Rio!"
+title: "Refúgio Pinheiro Beira Rio, Seu descanso na Serra da Mantiqueira"
+Lead: "Um cantinho acolhedor em Sapucaí-Mirim, cercado pela natureza e cuidado com carinho pela nossa família. Aqui, você encontra conforto, privacidade e vistas deslumbrantes das montanhas para viver momentos especiais com quem ama."
 ---
 <header class="hero" style="background-image: url(/assets/images/hero.jpg);">
   {% include navbar.html %}
@@ -9,13 +10,18 @@ title: "Bem vindo ao Refugio Pinheiro Beira Rio!"
     <h1 class="display display--1">
       {{ page.title }}
     </h1>
+
+    <p class="lead">
+      {{ page.Lead }}
   </div>
 </header>
 
 <section>
-  {% for casa in site.casas %}
-    <a href="{{ casa.url }}">
-      <h2>{{ casa.title }}</h2>
-    </a>
-  {% endfor %}
+  <div class="container">
+    {% for casa in site.casas %}
+      <a href="{{ casa.url }}">
+        <h2>{{ casa.title }}</h2>
+      </a>
+    {% endfor %}
+  </div>
 </section>
