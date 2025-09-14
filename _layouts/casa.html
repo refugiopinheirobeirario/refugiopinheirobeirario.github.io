@@ -3,12 +3,12 @@ layout: default
 ---
 <article class="house">
   <div class="container house__inner">
-    <div class="house__links">
+    <div class="house__reservation">
       <h2>Faça sua reserva:</h2>
 
-      <div class="house__links-buttons">
+      <div class="house__buttons">
         {% for link in page.links %}
-          <a class="button button--{{ link.site }} house__link-button" target="_blank" href="{{ link.url }}">Reserve no {{ link.site | capitalize }}</a>
+            <a class="button button--{{ link.site }}" target="_blank" href="{{ link.url }}">Reserve no {{ link.site | capitalize }}</a>
         {% endfor %}
       </div>
     </div>

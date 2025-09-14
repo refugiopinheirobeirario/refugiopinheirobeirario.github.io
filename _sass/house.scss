@@ -1,0 +1,28 @@
+.house__inner {
+  display: grid;
+  row-gap: 2rem;
+
+  @media only screen and (min-width: 768px) {
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas: "content reservation";
+    column-gap: 2rem;
+  }
+}
+
+.house__reservation {
+  @media only screen and (min-width: 768px) {
+    grid-area: reservation;
+  }
+}
+
+.house__content {
+  @media only screen and (min-width: 768px) {
+    grid-area: content;
+  }
+}
+
+.house__buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
