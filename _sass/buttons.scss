@@ -1,0 +1,18 @@
+.button {
+  display: inline-block;
+  text-decoration: none;
+  color: var(--color-light);
+  background-color: var(--color-primary);
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.25rem;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+
+  &--airbnb {
+    background-color: var(--color-airbnb);
+  }
+
+  &--booking {
+    background-color: var(--color-booking);
+  }
+}
