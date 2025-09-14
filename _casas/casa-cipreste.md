@@ -1,6 +1,7 @@
 ---
 layout: casa
 title: "Casa Cipreste"
+lead: "A Casa Cipreste, no Refúgio Pinheiro Beira Rio, é perfeita para quem busca conforto e contanto com a natureza"
 hero: /assets/images/casas/casa-cipreste/sala.jpg
 links:
   - site: airbnb
