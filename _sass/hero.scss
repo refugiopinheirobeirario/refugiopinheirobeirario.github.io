@@ -1,11 +1,7 @@
 .hero {
-  background-color: var(--color-primary);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-color: rgba(0, 0, 0, 0.5);
-  background-blend-mode: darken;
-  color: var(--color-light);
   padding-top: 4rem;
   padding-bottom: 4rem;
 
@@ -18,6 +14,13 @@
     padding-top: 12rem;
     padding-bottom: 12rem;
   }
+}
+
+.hero--dark {
+  background-color: var(--color-primary);
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: darken;
+  color: var(--color-light);
 }
 
 .hero__inner {

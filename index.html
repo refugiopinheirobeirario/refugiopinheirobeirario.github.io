@@ -4,11 +4,13 @@ title: "Refúgio Pinheiro Beira Rio, Seu descanso na Serra da Mantiqueira"
 lead: "Um cantinho acolhedor em Sapucaí-Mirim, cercado pela natureza e cuidado com carinho pela nossa família. Aqui, você encontra conforto, privacidade e vistas deslumbrantes das montanhas para viver momentos especiais com quem ama."
 hero: /assets/images/hero.jpg
 ---
-<section>
-  <div class="container">
+<section class="hero">
+  <div class="container hero__inner">
     {% for casa in site.casas %}
-      <a href="{{ casa.url }}">
+      <a href="{{ casa.url }}" class="card">
+        <img class="card__img" src="{{ casa.hero | relative_url }}" alt="{{ casa.title }}">
         <h2>{{ casa.title }}</h2>
+        <p>{{ casa.lead }}</p>
       </a>
     {% endfor %}
   </div>
