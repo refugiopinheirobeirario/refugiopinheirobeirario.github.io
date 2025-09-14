@@ -2,6 +2,8 @@
   --color-text: #333;
   --color-primary: #708A58;
   --color-light: #fff;
+  --color-airbnb: #FF5A5F;
+  --color-booking: #003580;
 }
 
 *,
@@ -63,18 +65,18 @@ picture {
   transition: background-color 0.3s ease;
 
   &--airbnb {
-    background-color: #FF5A5F;
+    background-color: var(--color-airbnb);
 
     &:hover {
-      background-color: darken(#FF5A5F, 10%);
+      background-color: darken(var(--color-airbnb), 10%);
     }
   }
 
   &--booking {
-    background-color: #003580;
+    background-color: var(--color-booking);
 
     &:hover {
-      background-color: darken(#003580, 10%);
+      background-color: darken(var(--color-booking), 10%);
     }
   }
 }
