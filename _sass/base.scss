@@ -35,18 +35,6 @@ h6 {
   line-height: 1.2;
 }
 
-h1 {
-  font-size: 3rem;
-}
-
-h2 {
-  font-size: 1.5rem;
-}
-
-h3 {
-  font-size: 1rem;
-}
-
 img,
 picture {
   display: block;
@@ -86,15 +74,6 @@ picture {
   text-decoration: none;
 }
 
-.hero {
-  background-color: var(--color-primary);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: var(--color-light);
-  padding-top: 8rem;
-  padding-bottom: 8rem;
-}
 
 .house {
   p {

@@ -12,6 +12,18 @@
     <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
   </head>
   <body>
+    <header class="hero" style="background-image: url(/assets/images/hero.jpg);">
+      {% include navbar.html %}
+
+      <div class="container hero__inner">
+        <h1 class="hero__title">
+          {{ page.title }}
+        </h1>
+
+        <p class="hero__text">
+          {{ page.lead }}
+      </div>
+    </header>
     {{ content }}
   </body>
 </html>
