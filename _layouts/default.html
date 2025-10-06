@@ -10,6 +10,19 @@
     <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
   </head>
   <body>
+    <header class="hero hero--dark" style="background-image: url({{ '/assets/images/hero.jpg' | relative_url }}); ">
+      <div class="container hero__inner">
+        <h1>
+          {{ page.title }}
+        </h1>
+
+        <p>
+          {{ page.description }}
+        </p>
+
+        <a class="button" href="{{ page.cta.link }}">{{ page.cta.label }}</a>
+      </div>
+    </header>
     {{ content }}
   </body>
 </html>
