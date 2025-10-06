@@ -1,0 +1,21 @@
+.hero {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  text-align: center;
+  text-wrap: balance;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  &--dark {
+    background-color: $color-dark;
+    color: $color-light;
+  }
+
+  &__inner {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+  }
+}
