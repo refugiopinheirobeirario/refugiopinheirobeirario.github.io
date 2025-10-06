@@ -2,11 +2,13 @@
   --color-text: #333;
   --color-dark: #333;
   --color-light: #fff;
+  --color-primary: #708A58;
 }
 
 $color-text: var(--color-text);
 $color-dark: var(--color-dark);
 $color-light: var(--color-light);
+$color-primary: var(--color-primary);
 
 *,
 *::after,

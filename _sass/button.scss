@@ -1,0 +1,10 @@
+.button {
+  display: inline-block;
+  padding: 0.75em 1.5em;
+  background-color: $color-primary;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
