@@ -1,8 +1,20 @@
 :root {
   --color-text: #333;
+  --color-dark: #333;
+  --color-light: #fff;
 }
 
 $color-text: var(--color-text);
+$color-dark: var(--color-dark);
+$color-light: var(--color-light);
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
 body {
   color: $color-text;
